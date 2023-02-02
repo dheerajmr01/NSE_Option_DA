@@ -20,7 +20,4 @@ driver.find_element(by="xpath", value='//div[@class="xlsdownload"]').click()
 sleep(7)
 driver.close()
 
-sleep(10)
-
-os.renames("option-chain-ED-NIFTY-02-Feb-2023", "d1")
 
